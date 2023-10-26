@@ -8,7 +8,21 @@
 
 /* generali */
 
+body{
+    background-color: #FFFFFE;
+}
 
+.pink{
+    color:#e43373 ;
+}
 
+.container{
+    max-width: 1000px;
+    margin:0 auto;
+}
 
+/* header */
+header > *{
+    text-align: center;
+}
 /* main */
