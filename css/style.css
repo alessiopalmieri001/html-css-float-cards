@@ -8,8 +8,9 @@
 
 /* generali */
 
-body{
+html{
     background-color: #FFFFFE;
+    font-family: 'Merriweather Sans', sans-serif;
 }
 
 .pink{
@@ -17,12 +18,40 @@ body{
 }
 
 .container{
-    max-width: 1000px;
+    max-width: 1200px;
     margin:0 auto;
+}
+
+.clearfix::after{
+    content:"";
+    display: table;
+    clear: both;
 }
 
 /* header */
 header > *{
     text-align: center;
 }
+h1{
+    margin: 30px;
+}
 /* main */
+
+.cards-container > .card{
+    float: left;
+    width: calc(100% / 3);
+}
+
+.card > *{
+    float: left;
+
+}
+
+.card > .img-container{
+    width: 100px;
+    height: 100px;
+}
+.card > .img-container > img{
+    width:100%;
+    display: block;
+}
