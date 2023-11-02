@@ -20,6 +20,7 @@ html{
 .container{
     max-width: 1200px;
     margin:0 auto;
+    margin-top: 30px;
 }
 
 .clearfix::after{
@@ -40,6 +41,7 @@ h1{
 .cards-container > .card{
     float: left;
     width: calc(100% / 3);
+    background-color: #0f0e17;
 }
 
 .card > *{
@@ -54,4 +56,22 @@ h1{
 .card > .img-container > img{
     width:100%;
     display: block;
+}
+.card > .info{
+    max-width: calc(100% - 100px);
+    height: 100px;
+    padding: 10px;
+}
+
+.card > .info > h4{
+    color: white;
+}
+
+.card > .info > h3{
+    color: white;
+}
+
+.card > .info >a{
+   text-decoration: none;
+   color: aquamarine;
 }
